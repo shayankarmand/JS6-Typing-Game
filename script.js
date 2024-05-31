@@ -75,7 +75,8 @@ if (time === 0){ clearInterval(timeInterval);
 }
 
 //8  gameover
-function gameOver(){endgameEl.innerHTML = `<h1> Time ran out!</h1> <p> Your final score is ${score} </p> <button oneClick="location.relod()">Relod</button> `;
+function gameOver(){endgameEl.innerHTML = `<h1> Time ran out!</h1> <p> Your final score is ${score} </p>  <button onclick="location.reload()">Reload</button>
+`;
 endgameEl.style.display = "flex";
 }
 
